@@ -9,13 +9,13 @@ int main()
     for (int i = 1; i <= T; i++){
         scanf("%s", s);
 
-        for (int i = 0; i <=strlen(s) ; i++){   
+        for (int i = 0; i < strlen(s) ; i++){   // i <= strlen(s) not possible.
             if (i%2 == 0){
                 printf("%c", s[i]);
             };
         }
         printf(" ");
-        for (int i = 0; i <strlen(s); i++) {   
+        for (int i = 0; i < strlen(s); i++) {   
             if (i%2 == 0){
                 printf("%c", s[i+1]);
             };
