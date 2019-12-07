@@ -2,20 +2,22 @@
 using namespace std;
 
 int main(){
-    int i, j, count = 0;
+    int i, count = 0;
     string str;
+    char n;
+    
     getline(cin, str);
+    cin >> n ;
 
     for ( i = 0; i < str.size(); i++)
     {
-        if (str[i]=='a')
+        if (str[i]== n)
         {
             count++;
         }
     }
     
-        cout << count << endl;
+    cout << count << endl;
     
-
     return 0;
 }
