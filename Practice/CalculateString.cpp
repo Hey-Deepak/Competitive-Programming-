@@ -27,5 +27,6 @@ int main(){
     cout << "Consonants :- " << consonantsCount << endl;
     cout << "Digits :- " << digitsCount << endl;
     cout << "White Spaces :- " << whiteSpacesCount << endl;
+    
     return 0;
 }
