@@ -12,12 +12,20 @@ int main(){
         if ( (str1[i] == 'a') || (str1[i] == 'o') || (str1[i] == 'i') || (str1[i] == 'e') || (str1[i] =='u') || (str1[i] == 'A') || (str1[i] == 'O') || (str1[i] == 'I') || (str1[i] == 'E') || (str1[i] =='U'))
         {
             vowelsCount++;
-        } else
+        } else if ( (str1[i] >= '0') && (str1[i] <= '9') )
+        {
+            digitsCount++;
+        } else if ( (str1[i] >= 'a' && str1[i] <= 'z') || (str1[i] >= 'A' && str1[i] <= 'Z'))
         {
             consonantsCount++;
+        } else if ( str1[i] = ' ')
+        {
+            whiteSpacesCount++;
         }
     }
-    cout << vowelsCount << endl;
-    cout << consonantsCount << endl;
+    cout << "Vowels :- " <<vowelsCount << endl;
+    cout << "Consonants :- " << consonantsCount << endl;
+    cout << "Digits :- " << digitsCount << endl;
+    cout << "White Spaces :- " << whiteSpacesCount << endl;
     return 0;
 }
