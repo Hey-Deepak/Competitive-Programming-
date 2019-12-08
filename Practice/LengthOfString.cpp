@@ -2,17 +2,14 @@
 using namespace std;
 
 int main(){
-    int i, count = 0;
+    int i;
     char arr[100];
     
     cin.get(arr, 100);
 
-    for ( i = 0; arr[i] != '\0'; i++)
-    {
-        count++;
-    }
+    for ( i = 0; arr[i] != '\0'; i++);
 
-    cout << count << endl;
+    cout << i << endl;
     
     return 0;
 }
