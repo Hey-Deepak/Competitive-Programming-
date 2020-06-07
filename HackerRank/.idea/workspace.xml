@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa80ee96-713a-4426-bc7d-ee90536270f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaEOF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaStaticInitializerBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaIntToString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
